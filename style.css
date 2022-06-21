@@ -10,8 +10,9 @@ header {
     flex-flow: row wrap;
     justify-content: center;
     background-color: #e97a7a;
-    width: 1500px;
+    /* width: 1500px; dont need*/
 }
+
 img {
     width: 400px;
     display: block;
@@ -67,5 +68,15 @@ a {
     display: flex;
     gap: 16px;
     font-size: 20px;
+}
+.maincontent {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.webcards {
+    display: flex;
+    flex-flow: row wrap;
+    flex-grow: 1;
 }
 
