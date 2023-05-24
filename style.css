@@ -48,7 +48,7 @@ p {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    background-color: #e97a7a;
+    background-color: rgb(234, 123, 123);
     width: 100%;
     gap: 20px;
     padding: 75px 0;
